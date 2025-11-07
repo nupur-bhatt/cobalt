@@ -1,0 +1,62 @@
+.incidentContainer {
+  justify-content: center;
+  align-content: center;
+  margin-top: 80px;
+  margin: 2rem !important;
+  height: 70%;
+  width: '100%' 
+}
+
+.incidentToolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+  padding: 1rem 1rem;
+}
+
+
+.incidentTitle {
+  font-weight: bolder !important;
+  margin-left: 1rem !important;
+  font-size: large !important;
+}
+
+.MuiDataGrid-columnHeaders {
+  background-color: var(--mui-palette-primary-main);
+  color: white;
+}
+
+.incidentContainer .MuiDataGrid-columnHeader {
+  background-color: var(--mui-palette-primary-main) !important;
+  color: white;
+}
+
+
+.incidentContainer .MuiDataGrid-columnHeaderTitle {
+  font-weight: bold;
+  color: white;
+}
+
+.incidentContainer .MuiDataGrid-columnHeaderCheckbox .MuiCheckbox-root {
+  color: white;
+}
+
+.incidentContainer .MuiDataGrid-columnHeaderCheckbox .Mui-checked {
+  color: white;
+}
+
+
+.incidentContainer .MuiDataGrid-cell {
+  color: var(--mui-palette-primary-main) !important;
+}
+
+
+.MuiDataGrid-columnHeader svg,
+.MuiDataGrid-columnHeader svg path,
+.MuiDataGrid-columnHeader:hover svg,
+.MuiDataGrid-columnHeader:hover svg path,
+.MuiDataGrid-columnHeader.Mui-active svg,
+.MuiDataGrid-columnHeader.Mui-active svg path {
+  color: white !important;
+  fill: white !important;
+}
