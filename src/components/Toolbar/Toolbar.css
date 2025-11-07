@@ -1,0 +1,12 @@
+.toolbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  z-index: 1200;
+  position: fixed;
+  backdrop-filter: none;
+  transition: all 0.3s;
+}
+
+.menuButton {
+  color: var(--mui-palette-primary-main) !important;
+}
